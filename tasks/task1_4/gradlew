@@ -67,7 +67,33 @@
 # Attempt to set APP_HOME
 
 # Resolve links: $0 may be a link
-app_path=$0
+app_path=$0COMP2850 Software Engineering
+School of Computer Science, University of Leeds
+Worksheet Week 1
+Worksheet tasks are designed to help you improve your skills and practice the topics covered in
+the sessions each week. You should use independent study time to complete a worksheet’s
+tasks, if you don’t manage to finish them all during the timetabled sessions. Doing these tasks
+is important, as it will help you prepare for the assessed work in your portfolio.
+You can ask for formative feedback or help during lab sessions. No submission is required for
+worksheet tasks and they do not form a part of the formal assessment of the module.
+Reading
+The reading material can be found at
+https://comp2850-2526.github.io/objectorientedprogramming/
+In Week 1, you should be reading these sections:
+1. Getting Started with Kotlin
+2. Data Types & Variables
+3. Basic I/O
+4. Flow Control
+Tasks
+Programming tasks are embedded within the reading material. All tasks should be carried out in
+a clone of your GitHub repository. Make sure that have claimed your repository via the link
+provided in Minerva before you begin any of the practical work!
+Task numbers are based on the section numbers in the reading material. For example, Tasks
+2.5.1 and 2.5.2 are both from Section 2.5 of the material.
+The work for each task is contained within a specific directory of your repository. For example,
+Task 3.1 should be done in the directory tasks/task3_1.
+Here’s a checklist of the tasks that you should be completing this week:
+
 
 # Need this for daisy-chained symlinks.
 while
@@ -162,7 +188,33 @@ if ! "$cygwin" && ! "$darwin" && ! "$nonstop" ; then
 fi
 
 # Collect all arguments for the java command, stacking in reverse order:
-#   * args from the command line
+#   * args from the command lineCOMP2850 Software Engineering
+School of Computer Science, University of Leeds
+Worksheet Week 1
+Worksheet tasks are designed to help you improve your skills and practice the topics covered in
+the sessions each week. You should use independent study time to complete a worksheet’s
+tasks, if you don’t manage to finish them all during the timetabled sessions. Doing these tasks
+is important, as it will help you prepare for the assessed work in your portfolio.
+You can ask for formative feedback or help during lab sessions. No submission is required for
+worksheet tasks and they do not form a part of the formal assessment of the module.
+Reading
+The reading material can be found at
+https://comp2850-2526.github.io/objectorientedprogramming/
+In Week 1, you should be reading these sections:
+1. Getting Started with Kotlin
+2. Data Types & Variables
+3. Basic I/O
+4. Flow Control
+Tasks
+Programming tasks are embedded within the reading material. All tasks should be carried out in
+a clone of your GitHub repository. Make sure that have claimed your repository via the link
+provided in Minerva before you begin any of the practical work!
+Task numbers are based on the section numbers in the reading material. For example, Tasks
+2.5.1 and 2.5.2 are both from Section 2.5 of the material.
+The work for each task is contained within a specific directory of your repository. For example,
+Task 3.1 should be done in the directory tasks/task3_1.
+Here’s a checklist of the tasks that you should be completing this week:
+
 #   * the main class name
 #   * -classpath
 #   * -D...appname settings
