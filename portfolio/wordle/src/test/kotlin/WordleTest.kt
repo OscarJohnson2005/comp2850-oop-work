@@ -37,6 +37,32 @@ class WordleTest : StringSpec({
             words.all{isValid(it)} shouldBe true
         }
     }
-    
+
+    "picking random words should remove it from the list"
+    {
+        val words = mutableListOf("bones", "stone", "tyres")
+        val chosen = pickRandomWord(words)
+
+        withClue("Chosen word should be in the list")
+        {
+            listOf("bones", "stone", "tyres") shouldContain chosen
+        }
+        withClue("Chosen word should be removed from list")
+        {
+            words shouldNotContain chosen
+        }
+    }
+
+    "evalGuess should return match values"
+    {
+        withClue("letters correct and in right position")
+        {
+            evaluateGuess("bones", "bones") shouldBe listOf(2, 2, 2, 2, 2)
+        }
+        withClue("some letters incorrect position, some letters wrong")
+        {
+            evaluateGuess("bones", "nasel") shouldBe listOf(1, 0, 1, 1, 0)
+        }
+    }
     
 })
